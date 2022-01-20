@@ -3,7 +3,6 @@
   b-container
     b-row
       b-col(cols="12")
-        h1.text-center 設定
       b-col(cols="12")
         b-table(:items="items" :fields="fields" @row-clicked='select')
           template(#cell(src)="data")

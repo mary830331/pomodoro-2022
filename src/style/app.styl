@@ -6,13 +6,10 @@
   img
     width 300px
     position relative
-#list
-  img
+.bg-tomato
     width 90%
-    position relative
     z-index: -1
-#list
-  div.tomato
+.tomato
     position absolute
 .tomato-time
   display flex
@@ -20,3 +17,16 @@
   justify-content center
 #app
   font-family 'Mochiy Pop P One', sans-serif
+#list,#settings
+  position absolute
+  top 20%
+  right 10%
+  width 40%
+  @media screen and (max-width: 768px)
+    top 70%
+    left 10%
+    width 80%
+#contect
+  a
+    color #000
+  
