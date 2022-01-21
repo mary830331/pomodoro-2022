@@ -10,7 +10,7 @@ const routes = [
     name: 'Home',
     component: Home,
     meta: {
-      title: '番茄鐘',
+      title: '黑白人森番茄鐘',
       keepAlive: true
     }
   },
@@ -19,16 +19,7 @@ const routes = [
     name: 'Settings',
     component: () => import(/* webpackChunkName: "settings" */ '../views/Settings.vue'),
     meta: {
-      title: '番茄鐘 | 設定'
-    }
-  },
-  {
-    path: '/list',
-    name: 'List',
-
-    component: () => import(/* webpackChunkName: "list" */ '../views/List.vue'),
-    meta: {
-      title: '番茄鐘 | 事項'
+      title: '黑白人森番茄鐘 | 設定'
     }
   },
   {
@@ -37,7 +28,7 @@ const routes = [
 
     component: () => import(/* webpackChunkName: "notfound" */ '../views/NotFound.vue'),
     meta: {
-      title: '番茄鐘 | 404'
+      title: '黑白人森番茄鐘 | 404'
     }
   },
   {
